@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbucks Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="w-full h-full font-sans p-5 ">
-    <section >
-        <div class="flex items-center justify-between px-4">
+<body class="font-sans font-bold">
+    <section class="min-h-screen w-full relative p-5 px-16 overflow-hidden">
+        <div class="w-[750px] h-[750px] rounded-full overflow-hidden bg-green-700 absolute -right-32 -bottom-48">
+        </div>
+        <div class="flex items-center justify-between px-4 mb-10">
             <div class="w-50">
                 <img class="" src="assets\logo.png">
             </div>
             <div class="w-50">
-                <ul class="flex font-bold text-xl px-5">
+                <ul class="flex text-2xl px-5">
                     <li class="px-4"><a href="">Home</a></li>
                     <li class="px-4"><a href="">Menu</a></li>
                     <li class="px-4"><a href="">What's New</a></li>
@@ -21,6 +24,26 @@
                 </ul>
             </div>
         </div>
+
+        <div class="grid grid-cols-2">
+            <div class="justify-center p-5">
+                <span class="text-7xl ">It's not just coffee</span>
+                <p class="text-7xl my-3">It's <span class="text-8xl text-green-700">Starbucks</span></p>
+                <p class="text-2xl font-normal my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Molestiae officia fugit est sunt! Animi veritatis repellendus sunt porro recusandae 
+                    voluptatem Lorem ipsum dolor sit amet!</p>
+                <button class="text-white bg-green-700 p-2 px-4 rounded-full">Learn More</button>
+            </div>
+            <div class="flex justify-end relative">
+                <img class="w-96 -rotate-12 mr-20" src="assets\starbucks-removebg-preview.png">
+                <div class="flex flex-col justify-center  space-y-4 text-white text-4xl">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
     </section>
 </body>
 </html>
